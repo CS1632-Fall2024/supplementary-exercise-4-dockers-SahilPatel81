@@ -29,10 +29,6 @@ public class D3Test {
   JavascriptExecutor js;
   @Before
   public void setUp() {
-
-    ChromeOptions options = new ChromeOptions();
-    options.addArguments("--headless");
-    driver = new ChromeDriver(options);
     
     driver = new ChromeDriver();
     js = (JavascriptExecutor) driver;
