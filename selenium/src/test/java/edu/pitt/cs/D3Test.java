@@ -34,9 +34,9 @@ public class D3Test {
     options.addArguments("--headless");
     driver = new ChromeDriver(options);
     
-    //driver = new ChromeDriver();
-    //js = (JavascriptExecutor) driver;
-    //vars = new HashMap<String, Object>();
+    driver = new ChromeDriver();
+    js = (JavascriptExecutor) driver;
+    vars = new HashMap<String, Object>();
 
     
   }
