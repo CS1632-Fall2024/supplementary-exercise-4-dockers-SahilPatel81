@@ -38,7 +38,7 @@ public class D3Test {
     js = (JavascriptExecutor) driver;
     vars = new HashMap<String, Object>();
 
-    
+  
   }
 
   @After
